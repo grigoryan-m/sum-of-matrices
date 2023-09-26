@@ -1,0 +1,40 @@
+*{
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	width: 100vw;
+	height: 100vh;
+	background-color: lightblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.panel{
+	background-color: white;
+	width: 500px;
+	height: 250px;
+	max-width: 90%;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+fieldset{
+	border: none;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	gap: 5px;
+}
+textarea{
+	width: calc(50% - 10px);
+	height: 150px;
+	resize: none;
+}
+button{
+	padding: 10px;
+	cursor: pointer;
+}
